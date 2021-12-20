@@ -1,0 +1,27 @@
+[
+  {
+    "Keyword": "open source",
+    "Number": 8,
+    "Websites": "Aether,<br> Lemmy,<br> Manyverse,<br> DeltaChat,<br> Nitter,<br> Osp,<br> Friendica,<br> Known"
+  },
+  {
+    "Keyword": "free software",
+    "Number": 2,
+    "Websites": "DeltaChat,<br> Diaspora"
+  },
+  {
+    "Keyword": "open",
+    "Number": 1,
+    "Websites": "Peepeth"
+  },
+  {
+    "Keyword": "open network",
+    "Number": 1,
+    "Websites": "Matrix"
+  },
+  {
+    "Keyword": "open platform",
+    "Number": 1,
+    "Websites": "Medium"
+  }
+]

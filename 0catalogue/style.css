@@ -1,0 +1,329 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+  background-color: #f9f8f7;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: input-mono;
+  font-weight: 300;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#catalogueIcon {
+  position: fixed;
+  top:0.5vw;
+  width:3vw;
+  left: 95vw;
+  z-index: 4;
+}
+
+.container {
+  height: 2vw;
+  background-color: #f9f8f7;
+  position: fixed;
+  width:100vw;
+  padding: 1vw;
+  font-family: neue-haas-unica;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2vw;
+}
+
+#restart {
+  left:2vw;
+  position: absolute;
+  height: 3.7vh;
+  width: 4.5vw;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1vw;
+  border-radius: 3vw;
+  background-color: white;
+  border: 0.1vw solid black;
+  outline: none;
+}
+
+#restart:hover {
+  background-color: #d8d8d8;
+}
+
+#navigo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, 0);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.reference {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+#catalogue::after {
+  width: 100%;
+}
+
+.reference::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 0.1vw;
+  background: black;
+  position: relative;
+  top: 3%;
+  z-index: 1;
+  -webkit-transition: width 0.5s;
+  -webkit-moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.reference:hover:after {
+  width: 100%;
+}
+
+#notice {
+  font-family: neue-haas-unica;
+  font-size: 2vh;
+  position:fixed;
+  margin: 0;
+  padding:1vh;
+  padding-left: 1.8vw;
+  border-top: 1px solid black;
+  width: 100%;
+  bottom: 0vh;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+#notice p{
+  padding:0;
+  margin:0;
+}
+
+#filterContainer {
+  position: fixed;
+  margin: auto;
+  transform: translateX(-0.5%);
+  width: 100%;
+  bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.checkboxContainer {
+  background-color: white;
+  border: 0.2vh solid black;
+  border-radius: 999vh;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 0.2vw;
+  margin-right: 0.2vw;
+}
+
+/*--------------------------------------------------------------------------*/
+/*Style for the text of all filters and their colors*/
+.checkboxText {
+  margin: 0.8vw;
+  font-size: 0.7vw;
+}
+
+/*--------------------------------------------------------------------------*/
+#freedom:hover {
+  background-color: #6eb1f4;
+}
+
+#right:hover {
+  background-color: #bcdcf7;
+}
+
+#decentralized:hover {
+  background-color: #d85652;
+}
+
+#safe:hover {
+  background-color: #ffc5e5;
+}
+
+#data:hover {
+  background-color: #e8b6ff;
+}
+
+#alternative:hover {
+  background-color: #c3e264;
+}
+
+#open:hover {
+  background-color: #a698f4;
+}
+
+#advertisement:hover {
+  background-color: #18ad71;
+}
+
+#real:hover {
+  background-color: #7fe2a9;
+}
+
+#free:hover {
+  background-color: #647eff;
+}
+
+#uncategorized:hover {
+  background-color: #d8d8d8;
+}
+
+.freedom {
+  background-color: #6eb1f4;
+}
+
+.right {
+  background-color: #bcdcf7;
+}
+
+.decentralized {
+  background-color: #d85652;
+}
+
+.safe {
+  background-color: #ffc5e5;
+}
+
+.data {
+  background-color: #e8b6ff;
+}
+
+.alternative {
+  background-color: #c3e264;
+}
+
+.open {
+  background-color: #a698f4;
+}
+
+.advertisement {
+  background-color: #18ad71;
+}
+
+.real {
+  background-color: #7fe2a9;
+}
+
+.free {
+  background-color: #647eff;
+}
+
+.uncategorized {
+  background-color: #d8d8d8;
+}
+
+/*--------------------------------------------------------------------------*/
+.siteContainer {
+  position: absolute;
+  padding: 0.8vh;
+  -webkit-transition: 1s;
+  -webkit-moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.siteName {
+  cursor: pointer;
+  position: absolute;
+  height: 3vh;
+  font-size: 3vh;
+  font-weight: 400;
+  padding-bottom: 1vh;
+  text-decoration: underline;
+}
+
+.siteKeywords {
+  position: relative;
+  width: 32vh;
+  top: 4vh;
+  font-size: 1.8vh;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  position:absolute;
+  top: 0;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  border: none;
+  opacity: 0;
+  height: 5vh;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  width: 36vh;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  font-size: 1.6vh;
+  padding: 0.8vh;
+  padding-right: 1vh;
+  z-index: 1;
+  border: 0.2vh solid black;
+  top: 0;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.overlayBox {
+  background-color: white;
+  height: auto;
+  font-size: 1.6vh;
+  padding: 0.8vh;
+  padding-right: 1vh;
+  z-index: 1;
+  border: 0.2vh solid black;
+}
+
+.overlaySite {
+  cursor: default;
+  font-size: 3vh;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.overlayText {
+  margin-top: 1vh;
+  margin-bottom: 0.5vh;
+  display: inline-block;
+  font-size: 1.6vh;
+}
+
+.linkButton {
+  width: 6vh;
+  height: 4vh;
+  text-decoration: none;
+  position: absolute;
+  top: 1vh;
+  right: 1.5vh;
+  cursor: pointer;
+}

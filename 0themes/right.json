@@ -1,0 +1,92 @@
+[
+  {
+    "Keyword": "privacy",
+    "Number": 7,
+    "Websites": "Signal,<br> Session,<br> Feedly,<br> Nitter,<br> Parler,<br> DeltaChat,<br> Diaspora"
+  },
+  {
+    "Keyword": "secure",
+    "Number": 3,
+    "Websites": "Matrix,<br> Scuttlebutt,<br> Element"
+  },
+  {
+    "Keyword": "secure messaging",
+    "Number": 3,
+    "Websites": "Briar,<br> Manyverse,<br> Keybase"
+  },
+  {
+    "Keyword": "(vs) tracking",
+    "Number": 3,
+    "Websites": "Manyverse,<br> MeWe,<br> DeltaChat"
+  },
+  {
+    "Keyword": "(vs) spying",
+    "Number": 2,
+    "Websites": "MeWe,<br> Manyverse"
+  },
+  {
+    "Keyword": "private",
+    "Number": 2,
+    "Websites": "Keybase,<br> The Lox Club"
+  },
+  {
+    "Keyword": "our privacy",
+    "Number": 1,
+    "Websites": "MeWe"
+  },
+  {
+    "Keyword": "(vs) digital survaillance",
+    "Number": 1,
+    "Websites": "Tox"
+  },
+  {
+    "Keyword": "(vs) survaillance",
+    "Number": 1,
+    "Websites": "Session"
+  },
+  {
+    "Keyword": "(vs) violating privacy",
+    "Number": 1,
+    "Websites": "CloutHub"
+  },
+  {
+    "Keyword": "empowers you to protect your identity",
+    "Number": 1,
+    "Websites": "Flote"
+  },
+  {
+    "Keyword": "more private than Facebook",
+    "Number": 1,
+    "Websites": "Geneva"
+  },
+  {
+    "Keyword": "no analytics",
+    "Number": 1,
+    "Websites": "Manyverse"
+  },
+  {
+    "Keyword": "own your conversation",
+    "Number": 1,
+    "Websites": "Element"
+  },
+  {
+    "Keyword": "privately",
+    "Number": 1,
+    "Websites": "Jami"
+  },
+  {
+    "Keyword": "right to privacy",
+    "Number": 1,
+    "Websites": "Briar"
+  },
+  {
+    "Keyword": "target",
+    "Number": 1,
+    "Websites": "MeWe"
+  },
+  {
+    "Keyword": "privately organized",
+    "Number": 1,
+    "Websites": "Feedly"
+  }
+]

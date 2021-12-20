@@ -1,0 +1,67 @@
+[
+  {
+    "Keyword": "Twitter",
+    "Number": 5,
+    "Websites": "Mastodon,<br> Nitter,<br> Opensource-socialnetwork,<br> Feedly,<br> Friendica"
+  },
+  {
+    "Keyword": "Facebook",
+    "Number": 4,
+    "Websites": "Mastodon,<br> MeWe,<br> Opensource-socialnetwork,<br> Geneva"
+  },
+  {
+    "Keyword": "Reddit",
+    "Number": 2,
+    "Websites": "Lemmy,<br> Saidit"
+  },
+  {
+    "Keyword": "app.net",
+    "Number": 1,
+    "Websites": "Friendica"
+  },
+  {
+    "Keyword": "Freenet",
+    "Number": 1,
+    "Websites": "Briar"
+  },
+  {
+    "Keyword": "Gnu social",
+    "Number": 1,
+    "Websites": "Friendica"
+  },
+  {
+    "Keyword": "GroupMe",
+    "Number": 1,
+    "Websites": "Geneva"
+  },
+  {
+    "Keyword": "Instagram",
+    "Number": 1,
+    "Websites": "Opensource-socialnetwork"
+  },
+  {
+    "Keyword": "Matrix",
+    "Number": 1,
+    "Websites": "Element"
+  },
+  {
+    "Keyword": "Sluck",
+    "Number": 1,
+    "Websites": "Geneva"
+  },
+  {
+    "Keyword": "Telegram",
+    "Number": 1,
+    "Websites": "DeltaChat"
+  },
+  {
+    "Keyword": "WhatsApp",
+    "Number": 1,
+    "Websites": "DeltaChat"
+  },
+  {
+    "Keyword": "YouTube",
+    "Number": 1,
+    "Websites": "AltCensored"
+  }
+]
